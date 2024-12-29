@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "coldmessage-python"
+version = "0.1.0"
+description = "LLM caller to call gemini model to gsuggestions"
+authors = ["siddharthlucky <siddharth.luckyreddy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
