@@ -19,6 +19,11 @@ You will be provided with several email options, each with a slightly different 
     *   **Option 1 (More Formal):** Use this option if the recipient is in a higher position or if the relationship is strictly professional.
     *   **Option 2 (Slightly More Casual):** Use this option if the recipient is a peer or if the relationship is friendly but still professional.
     *   **Option 3 (If You Haven't Connected in a While):** Use this option if you haven't interacted with the recipient recently.
+    
+    When there are multiple options, suggest the best option based on the person's profile:
+    *   If the recipient is in a higher position or the relationship is strictly professional, suggest Option 1.
+    *   If the recipient is a peer or the relationship is friendly but still professional, suggest Option 2.
+    *   If you haven't interacted with the recipient recently, suggest Option 3.
 5.  **Personalize the Email:** After selecting the best option, fill in the bracketed placeholders with the specific information for the sender and recipient.
 
 ## Example
