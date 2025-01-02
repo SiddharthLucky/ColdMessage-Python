@@ -19,7 +19,7 @@ connection = pika.BlockingConnection(connection_params)
 channel = connection.channel()
 
 # Declare the queue (same name as the producer)
-queue_name = os.getenv('RABBITMQ_QUEUE')
+queue_name = os.getenv('RABBITMQ_QUEUE_TEST')
 channel.queue_declare(queue=queue_name)
 
 # Start consuming

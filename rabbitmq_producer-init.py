@@ -14,7 +14,7 @@ connection = pika.BlockingConnection(connection_params)
 channel = connection.channel()
 
 # Create queue
-channel.queue_declare(queue=os.getenv('RABBITMQ_QUEUE'))
+channel.queue_declare(queue=os.getenv('RABBITMQ_QUEUE_TEST'))
 
 # Send message
 message = 'Hello, RabbitMQ4'
